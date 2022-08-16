@@ -1,0 +1,7 @@
+{
+  "name": "cfe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
