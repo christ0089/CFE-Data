@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cfe-data-demo": {
+      "hosting": {
+        "app": [
+          "cfe-data-demo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cfe-data-demo"
+  }
+}

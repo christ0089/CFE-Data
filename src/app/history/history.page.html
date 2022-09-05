@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Historial de Mantenimientos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let hist of history">
+      <ion-label
+        >{{hist.name}}
+        <p>{{hist.date}}</p>
+      </ion-label>
+      <ion-label slot="end" [style.color]="hist.color">
+        {{hist.result}}
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
